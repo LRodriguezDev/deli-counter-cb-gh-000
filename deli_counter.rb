@@ -22,7 +22,7 @@ def now_serving(array)
   if array.size == 0
     puts "There is nobody waiting to be served!"
   else
-    last_customer = array.pop()
+    last_customer = array.shift()
     puts "Currently serving #{last_customer}."
   end
 end
