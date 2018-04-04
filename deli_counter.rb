@@ -9,5 +9,6 @@ def line(array)
     array.each_with_index do |customer, index|
       string += " #{index + 1}. #{customer}"
     end
+    puts string
   end
 end
